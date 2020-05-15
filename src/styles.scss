@@ -1,0 +1,11 @@
+$body-color: #000;
+$color: #ffff;
+$red: red;
+
+body {
+  color: $color;
+    background: $body-color;
+}
+.warning {
+    color: $red;
+}

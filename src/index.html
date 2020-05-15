@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>React Startkit with webopack</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></head>
+  <body>
+    <div id="app"></div>
+    <% if(process.env.NODE_ENV === 'production') { %>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <%}%>
+</body>
+</html>
